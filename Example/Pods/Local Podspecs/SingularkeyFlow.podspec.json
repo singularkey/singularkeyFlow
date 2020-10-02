@@ -1,0 +1,22 @@
+{
+  "name": "SingularkeyFlow",
+  "version": "0.1.0",
+  "summary": "A short description of SingularkeyFlow.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Neetin Sharma/SingularkeyFlow",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Neetin Sharma": "return@neetin.com.np"
+  },
+  "source": {
+    "git": "https://github.com/Neetin Sharma/SingularkeyFlow.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "SingularkeyFlow/Classes/**/*"
+}

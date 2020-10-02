@@ -1,0 +1,605 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		25D5037AE1CB0CC95E94A9EDD7A6E8E6 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD340599C870776820D57725DA15B5C /* ReplaceMe.swift */; };
+		487C1C24A3E6D3A172D670EE4AAE3EF6 /* Pods-SingularkeyFlow_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A335FDDFC637F7F5A3B56A58A7669E1 /* Pods-SingularkeyFlow_Tests-dummy.m */; };
+		622ED1E89961B433BDE2721D5DE511F7 /* SingularkeyFlow-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D8B161CB33C4BF460362133DEB5488CD /* SingularkeyFlow-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		74FF76C8B7E19BEE749B5DD47EEA66A6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		93AEF8484616364632FE40C8A891661E /* Pods-SingularkeyFlow_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BAAE9BEA2E55BE295C31FDF537BA8C4B /* Pods-SingularkeyFlow_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BD082210D8311BFB9A33CF722252289D /* SingularkeyFlow-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B41D808DD12BC574317CC2C0FCAD3471 /* SingularkeyFlow-dummy.m */; };
+		F7BF417AD2F27DF47151743CCD250FAF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		94785576008FA9E40544B13F120F5702 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 15D1EFB28C34C8A63AA86B6500C4613E;
+			remoteInfo = SingularkeyFlow;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1417E009BA51831FB9E0BF08DB4B9AA2 /* Pods-SingularkeyFlow_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SingularkeyFlow_Tests-Info.plist"; sourceTree = "<group>"; };
+		269BE5D00F7511AC57CC24F97DAECEDA /* Pods-SingularkeyFlow_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SingularkeyFlow_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		2A335FDDFC637F7F5A3B56A58A7669E1 /* Pods-SingularkeyFlow_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SingularkeyFlow_Tests-dummy.m"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		37E1985907240FC15BC4F6F70AF2F548 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		4E852497FA9EEB4F440F035567324187 /* Pods_SingularkeyFlow_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SingularkeyFlow_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		64BA51538A175D59E44F24C62F352861 /* Pods-SingularkeyFlow_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SingularkeyFlow_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		6A9735E9ED21797F5ECDCCA81B3F07AD /* Pods-SingularkeyFlow_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SingularkeyFlow_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		71F4335DD7FFCA33121DC545CEB96DE8 /* Pods-SingularkeyFlow_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SingularkeyFlow_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		8977430DEA6D6D61753C680B770D9545 /* SingularkeyFlow.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SingularkeyFlow.release.xcconfig; sourceTree = "<group>"; };
+		970369157DCED216058977390B5DD63A /* SingularkeyFlow.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SingularkeyFlow.debug.xcconfig; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A05A82FAD5BC9425C6DA4A920F58DAA9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		A4531E44584180F77227C42AF60F51C0 /* SingularkeyFlow.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SingularkeyFlow.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9EF22984469F0137DFFF857083C1F3C /* SingularkeyFlow-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SingularkeyFlow-prefix.pch"; sourceTree = "<group>"; };
+		B41D808DD12BC574317CC2C0FCAD3471 /* SingularkeyFlow-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SingularkeyFlow-dummy.m"; sourceTree = "<group>"; };
+		BAAE9BEA2E55BE295C31FDF537BA8C4B /* Pods-SingularkeyFlow_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SingularkeyFlow_Tests-umbrella.h"; sourceTree = "<group>"; };
+		BD3F6F2697B9BDF213F5715611C2473D /* Pods-SingularkeyFlow_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SingularkeyFlow_Tests.modulemap"; sourceTree = "<group>"; };
+		D764F4B26909A7453EF4CBEF2DB9DA25 /* Pods-SingularkeyFlow_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SingularkeyFlow_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		D8B161CB33C4BF460362133DEB5488CD /* SingularkeyFlow-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SingularkeyFlow-umbrella.h"; sourceTree = "<group>"; };
+		DBD340599C870776820D57725DA15B5C /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = SingularkeyFlow/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		DEB843F89F181AB10CF5B39381E5C088 /* SingularkeyFlow.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SingularkeyFlow.modulemap; sourceTree = "<group>"; };
+		E16A66EBA7014C36D95BDD53F5072C98 /* SingularkeyFlow-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SingularkeyFlow-Info.plist"; sourceTree = "<group>"; };
+		FC4E6F3CC7BAF97B01678589F194E1D6 /* SingularkeyFlow.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = SingularkeyFlow.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1FA3BD173B8C16213BC55E09C293B237 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74FF76C8B7E19BEE749B5DD47EEA66A6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B1CCA6310126528A6100B7994F045A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7BF417AD2F27DF47151743CCD250FAF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		28D6DBF2E2AE3A187D313500671D2261 /* Pods-SingularkeyFlow_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				BD3F6F2697B9BDF213F5715611C2473D /* Pods-SingularkeyFlow_Tests.modulemap */,
+				6A9735E9ED21797F5ECDCCA81B3F07AD /* Pods-SingularkeyFlow_Tests-acknowledgements.markdown */,
+				D764F4B26909A7453EF4CBEF2DB9DA25 /* Pods-SingularkeyFlow_Tests-acknowledgements.plist */,
+				2A335FDDFC637F7F5A3B56A58A7669E1 /* Pods-SingularkeyFlow_Tests-dummy.m */,
+				269BE5D00F7511AC57CC24F97DAECEDA /* Pods-SingularkeyFlow_Tests-frameworks.sh */,
+				1417E009BA51831FB9E0BF08DB4B9AA2 /* Pods-SingularkeyFlow_Tests-Info.plist */,
+				BAAE9BEA2E55BE295C31FDF537BA8C4B /* Pods-SingularkeyFlow_Tests-umbrella.h */,
+				71F4335DD7FFCA33121DC545CEB96DE8 /* Pods-SingularkeyFlow_Tests.debug.xcconfig */,
+				64BA51538A175D59E44F24C62F352861 /* Pods-SingularkeyFlow_Tests.release.xcconfig */,
+			);
+			name = "Pods-SingularkeyFlow_Tests";
+			path = "Target Support Files/Pods-SingularkeyFlow_Tests";
+			sourceTree = "<group>";
+		};
+		4315A67F20D090797669D17953723D83 /* SingularkeyFlow */ = {
+			isa = PBXGroup;
+			children = (
+				DBD340599C870776820D57725DA15B5C /* ReplaceMe.swift */,
+				C6AD64CC18FFA5301BDBB854BF9613B0 /* Pod */,
+				5144F20AE05B30E327C71D4BE20B5E5F /* Support Files */,
+			);
+			name = SingularkeyFlow;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		5144F20AE05B30E327C71D4BE20B5E5F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DEB843F89F181AB10CF5B39381E5C088 /* SingularkeyFlow.modulemap */,
+				B41D808DD12BC574317CC2C0FCAD3471 /* SingularkeyFlow-dummy.m */,
+				E16A66EBA7014C36D95BDD53F5072C98 /* SingularkeyFlow-Info.plist */,
+				A9EF22984469F0137DFFF857083C1F3C /* SingularkeyFlow-prefix.pch */,
+				D8B161CB33C4BF460362133DEB5488CD /* SingularkeyFlow-umbrella.h */,
+				970369157DCED216058977390B5DD63A /* SingularkeyFlow.debug.xcconfig */,
+				8977430DEA6D6D61753C680B770D9545 /* SingularkeyFlow.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SingularkeyFlow";
+			sourceTree = "<group>";
+		};
+		6FAFEECF69A8D887CAF6AA6202700CEC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4E852497FA9EEB4F440F035567324187 /* Pods_SingularkeyFlow_Tests.framework */,
+				A4531E44584180F77227C42AF60F51C0 /* SingularkeyFlow.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9912D902A05679A82B24161EBE69E2C0 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4315A67F20D090797669D17953723D83 /* SingularkeyFlow */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C6AD64CC18FFA5301BDBB854BF9613B0 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				A05A82FAD5BC9425C6DA4A920F58DAA9 /* LICENSE */,
+				37E1985907240FC15BC4F6F70AF2F548 /* README.md */,
+				FC4E6F3CC7BAF97B01678589F194E1D6 /* SingularkeyFlow.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				9912D902A05679A82B24161EBE69E2C0 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				6FAFEECF69A8D887CAF6AA6202700CEC /* Products */,
+				D02F848555F6C0BDFE621C22B023ACF1 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D02F848555F6C0BDFE621C22B023ACF1 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				28D6DBF2E2AE3A187D313500671D2261 /* Pods-SingularkeyFlow_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2134928C5339D26713873C1DA8D1779A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				622ED1E89961B433BDE2721D5DE511F7 /* SingularkeyFlow-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E22200BBC46C8F189DE720B72C4808A4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93AEF8484616364632FE40C8A891661E /* Pods-SingularkeyFlow_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		15D1EFB28C34C8A63AA86B6500C4613E /* SingularkeyFlow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0138805D28930D144E0ED609BF2D4FD /* Build configuration list for PBXNativeTarget "SingularkeyFlow" */;
+			buildPhases = (
+				2134928C5339D26713873C1DA8D1779A /* Headers */,
+				7B96583CC0B382B55E95797879AD558F /* Sources */,
+				5B1CCA6310126528A6100B7994F045A3 /* Frameworks */,
+				2CACC845CB23C5DC4CF2D2A8438A33DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SingularkeyFlow;
+			productName = SingularkeyFlow;
+			productReference = A4531E44584180F77227C42AF60F51C0 /* SingularkeyFlow.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B953F6D1C03EAA26290E6373B8A3156C /* Pods-SingularkeyFlow_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D076B238E2272E663D8BF0C94632D64 /* Build configuration list for PBXNativeTarget "Pods-SingularkeyFlow_Tests" */;
+			buildPhases = (
+				E22200BBC46C8F189DE720B72C4808A4 /* Headers */,
+				2B680289858AEDFA066253E73F7EB876 /* Sources */,
+				1FA3BD173B8C16213BC55E09C293B237 /* Frameworks */,
+				9C9D5CF42236F3B6F70184BB58F75A77 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A72E31633254EA317BCBEFB05486A288 /* PBXTargetDependency */,
+			);
+			name = "Pods-SingularkeyFlow_Tests";
+			productName = "Pods-SingularkeyFlow_Tests";
+			productReference = 4E852497FA9EEB4F440F035567324187 /* Pods_SingularkeyFlow_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 6FAFEECF69A8D887CAF6AA6202700CEC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B953F6D1C03EAA26290E6373B8A3156C /* Pods-SingularkeyFlow_Tests */,
+				15D1EFB28C34C8A63AA86B6500C4613E /* SingularkeyFlow */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2CACC845CB23C5DC4CF2D2A8438A33DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C9D5CF42236F3B6F70184BB58F75A77 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B680289858AEDFA066253E73F7EB876 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				487C1C24A3E6D3A172D670EE4AAE3EF6 /* Pods-SingularkeyFlow_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B96583CC0B382B55E95797879AD558F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25D5037AE1CB0CC95E94A9EDD7A6E8E6 /* ReplaceMe.swift in Sources */,
+				BD082210D8311BFB9A33CF722252289D /* SingularkeyFlow-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A72E31633254EA317BCBEFB05486A288 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SingularkeyFlow;
+			target = 15D1EFB28C34C8A63AA86B6500C4613E /* SingularkeyFlow */;
+			targetProxy = 94785576008FA9E40544B13F120F5702 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		116AA6617576989FF14E191E0F1EFC1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64BA51538A175D59E44F24C62F352861 /* Pods-SingularkeyFlow_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SingularkeyFlow_Tests/Pods-SingularkeyFlow_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SingularkeyFlow_Tests/Pods-SingularkeyFlow_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		75E5885DC23A43EECADBC34F3AE8C68B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71F4335DD7FFCA33121DC545CEB96DE8 /* Pods-SingularkeyFlow_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SingularkeyFlow_Tests/Pods-SingularkeyFlow_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SingularkeyFlow_Tests/Pods-SingularkeyFlow_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = 1;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7BAA1EB606DCCBF3A30875F594545973 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8977430DEA6D6D61753C680B770D9545 /* SingularkeyFlow.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SingularkeyFlow/SingularkeyFlow-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SingularkeyFlow/SingularkeyFlow-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SingularkeyFlow/SingularkeyFlow.modulemap";
+				PRODUCT_MODULE_NAME = SingularkeyFlow;
+				PRODUCT_NAME = SingularkeyFlow;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B0087CB4594321EF41619F3181FE120E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D71D2B73AEB79DBDC23DAA1CCD2813EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 970369157DCED216058977390B5DD63A /* SingularkeyFlow.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SingularkeyFlow/SingularkeyFlow-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SingularkeyFlow/SingularkeyFlow-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SingularkeyFlow/SingularkeyFlow.modulemap";
+				PRODUCT_MODULE_NAME = SingularkeyFlow;
+				PRODUCT_NAME = SingularkeyFlow;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
+				B0087CB4594321EF41619F3181FE120E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D076B238E2272E663D8BF0C94632D64 /* Build configuration list for PBXNativeTarget "Pods-SingularkeyFlow_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75E5885DC23A43EECADBC34F3AE8C68B /* Debug */,
+				116AA6617576989FF14E191E0F1EFC1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0138805D28930D144E0ED609BF2D4FD /* Build configuration list for PBXNativeTarget "SingularkeyFlow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D71D2B73AEB79DBDC23DAA1CCD2813EC /* Debug */,
+				7BAA1EB606DCCBF3A30875F594545973 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
