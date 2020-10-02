@@ -1,0 +1,11 @@
+framework module SingularkeyFlow {
+  umbrella header "SingularkeyFlow.h"
+
+  export *
+  module * { export * }
+}
+
+module SingularkeyFlow.Swift {
+    header "SingularkeyFlow-Swift.h"
+    requires objc
+}
