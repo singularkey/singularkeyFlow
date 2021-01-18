@@ -1,0 +1,198 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)
+// swift-module-flags: -target arm64-apple-ios11.3 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -module-name SingularkeyFlow
+import Foundation
+import GaitAuth
+import JumioCore
+import Netverify
+import NetverifyFace
+import Onfido
+import SingularKey
+@_exported import SingularkeyFlow
+import Swift
+import UIKit
+import UnifyID
+public struct SingualarkeyFlowError : Swift.Error {
+}
+extension SingualarkeyFlowError : Foundation.LocalizedError {
+  public var errorDescription: Swift.String? {
+    get
+  }
+}
+public struct UserDefaultsManager {
+  public init()
+  public static func saveIsSandbox(key: Swift.Bool)
+  public static func getIsSandbox() -> Swift.Bool
+  public static func saveTimeout(key: Swift.Double)
+  public static func getTimeout() -> Swift.Double
+  public static func saveChallenge(challenge: Swift.String)
+  public static func getChallenge() -> Swift.String?
+  public static func deleteChallenge()
+  public static func saveApiKey(key: Swift.String)
+  public static func getApiKey() -> Swift.String?
+  public static func deleteApiKey()
+  public static func saveRPId(key: Swift.String)
+  public static func getRPId() -> Swift.String?
+  public static func deleteRPId()
+  public static func saveOrigin(key: Swift.String)
+  public static func getOrigin() -> Swift.String?
+  public static func deleteOrigin()
+  public static func saveAccessToken(key: Swift.String)
+  public static func getAccessToken() -> Swift.String?
+  public static func deleteAccessToken()
+  public static func deleteCredId()
+  public static func saveCredId(credId: Swift.String)
+  public static func getCredId() -> Swift.String?
+  public static func saveUITheme(themeObject: [Swift.String : Swift.String])
+  public static func getUITheme() -> [Swift.String : Swift.String]?
+  public static func deleteUITheme()
+}
+public struct SKTheme {
+  public var backgroundColor: Swift.String
+  public var labelTextColor: Swift.String
+  public var buttonTextColor: Swift.String
+  public var buttonBackgroundColor: Swift.String
+  public init(backgroundColor: Swift.String, labelTextColor: Swift.String, buttonTextColor: Swift.String, buttonBackgroundColor: Swift.String)
+}
+public protocol KeyPathDeclaration {
+  static var keyPaths: [Swift.String : Swift.PartialKeyPath<Self>] { get }
+}
+public enum JSONValue : Swift.Decodable {
+  case string(Swift.String)
+  case int(Swift.Int)
+  case double(Swift.Double)
+  case bool(Swift.Bool)
+  case object([Swift.String : SingularkeyFlow.JSONValue])
+  case array([SingularkeyFlow.JSONValue])
+  public init(from decoder: Swift.Decoder) throws
+}
+public class SKBootstrap {
+  public init()
+  @objc deinit
+}
+public protocol SinguarkeyFlowDelegate {
+  func completeVerification(response: [Swift.String : Swift.AnyObject]?, error: SingularkeyFlow.SingualarkeyFlowError?)
+}
+public class SKFlow {
+  public var delegate: SingularkeyFlow.SinguarkeyFlowDelegate?
+  public var companyId: Swift.String!
+  public var skApiKey: Swift.String!
+  public var rpId: Swift.String!
+  public var origin: Swift.String!
+  public init(skApiKey: Swift.String, rpId: Swift.String, origin: Swift.String, companyId: Swift.String, responseTimeOut: Swift.Double = 120, theme: SingularkeyFlow.SKTheme?, isSandbox: Swift.Bool = false)
+  public func runFlow(flowId: Swift.String, fromViewController viewController: UIKit.UIViewController, accessToken: Swift.String?, props: [Swift.String : Any]?)
+  public func runFlow(policyId: Swift.String, fromViewController viewController: UIKit.UIViewController, accessToken: Swift.String?, props: [Swift.String : Any]?)
+  @objc deinit
+}
+public enum APIHTTPHeader {
+  case authorization(accessToken: Swift.String)
+  case custom(Swift.String, Swift.String)
+  case contentType
+}
+public enum APIHTTPMethod : Swift.String {
+  case get
+  case post
+  case put
+  case delete
+  case patch
+  public typealias RawValue = Swift.String
+  public init?(rawValue: Swift.String)
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public protocol APIEndpoint {
+  var path: Swift.String { get }
+  var method: SingularkeyFlow.APIHTTPMethod { get }
+}
+public enum RegisterEndpoint : SingularkeyFlow.APIEndpoint {
+  case initiate
+  case fidoRegisterInitiate
+  case fidoRegisterComplete
+  public var path: Swift.String {
+    get
+  }
+  public var method: SingularkeyFlow.APIHTTPMethod {
+    get
+  }
+  public static func == (a: SingularkeyFlow.RegisterEndpoint, b: SingularkeyFlow.RegisterEndpoint) -> Swift.Bool
+  public var hashValue: Swift.Int {
+    get
+  }
+  public func hash(into hasher: inout Swift.Hasher)
+}
+public enum AuthEndpoint : SingularkeyFlow.APIEndpoint {
+  case initiate
+  case complete
+  public var path: Swift.String {
+    get
+  }
+  public var method: SingularkeyFlow.APIHTTPMethod {
+    get
+  }
+  public static func == (a: SingularkeyFlow.AuthEndpoint, b: SingularkeyFlow.AuthEndpoint) -> Swift.Bool
+  public var hashValue: Swift.Int {
+    get
+  }
+  public func hash(into hasher: inout Swift.Hasher)
+}
+public enum FlowEndpoint : SingularkeyFlow.APIEndpoint {
+  case startFlowWithId(companyId: Swift.String, flowId: Swift.String)
+  case startFlowWithPolicyId(companyId: Swift.String, policyId: Swift.String)
+  public var path: Swift.String {
+    get
+  }
+  public var method: SingularkeyFlow.APIHTTPMethod {
+    get
+  }
+}
+public enum Tokenpoint : SingularkeyFlow.APIEndpoint {
+  case sdktoken(userId: Swift.String)
+  public var path: Swift.String {
+    get
+  }
+  public var method: SingularkeyFlow.APIHTTPMethod {
+    get
+  }
+}
+public enum PollForChallengeEndpoint : SingularkeyFlow.APIEndpoint {
+  case start(companyId: Swift.String, challengeId: Swift.String, interval: Swift.String, retries: Swift.String, interactionId: Swift.String)
+  case clientSidePoll(companyId: Swift.String, challengeId: Swift.String, interactionId: Swift.String)
+  public var path: Swift.String {
+    get
+  }
+  public var method: SingularkeyFlow.APIHTTPMethod {
+    get
+  }
+}
+public enum SDKEndpoint : SingularkeyFlow.APIEndpoint {
+  case initialize(companyId: Swift.String)
+  public var path: Swift.String {
+    get
+  }
+  public var method: SingularkeyFlow.APIHTTPMethod {
+    get
+  }
+}
+public enum EventEndpoint : SingularkeyFlow.APIEndpoint {
+  case send(interactionId: Swift.String, companyId: Swift.String, connectionId: Swift.String, capabilityName: Swift.String)
+  public var path: Swift.String {
+    get
+  }
+  public var method: SingularkeyFlow.APIHTTPMethod {
+    get
+  }
+}
+public protocol NetworkAPIRequestType {
+  var parameter: [Swift.String : Any]? { get }
+  var endpoint: SingularkeyFlow.APIEndpoint { get }
+  var headers: [SingularkeyFlow.APIHTTPHeader]? { get }
+  var resourceURL: Swift.String { get }
+}
+public struct NetworkAPIRequestFor : SingularkeyFlow.NetworkAPIRequestType {
+  public var parameter: [Swift.String : Any]?
+  public let endpoint: SingularkeyFlow.APIEndpoint
+  public var resourceURL: Swift.String
+  public let headers: [SingularkeyFlow.APIHTTPHeader]?
+  public init(endpoint: SingularkeyFlow.APIEndpoint, headers: [SingularkeyFlow.APIHTTPHeader]? = [], parameter: [Swift.String : Any]?)
+}
