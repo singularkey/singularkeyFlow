@@ -8,17 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
-		D5A62C3DF64DF48444C80D02 /* Pods_SingularkeyFlow_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EF867597A97C3883E7D7029 /* Pods_SingularkeyFlow_Tests.framework */; };
+		8E0B3D0E62D2D36F91D4D19C /* Pods_SingularkeyFlow_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF9602EA9611312C12727715 /* Pods_SingularkeyFlow_Tests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		12CC2EBC234B72D6AD162323 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		1EF867597A97C3883E7D7029 /* Pods_SingularkeyFlow_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SingularkeyFlow_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACE51AFB9204008FA782 /* SingularkeyFlow_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SingularkeyFlow_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		6F879759BE989D64E9EE2D40 /* Pods-SingularkeyFlow_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SingularkeyFlow_Tests.debug.xcconfig"; path = "Target Support Files/Pods-SingularkeyFlow_Tests/Pods-SingularkeyFlow_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		C0993B5C7D0407A6DD6076E1 /* Pods-SingularkeyFlow_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SingularkeyFlow_Tests.release.xcconfig"; path = "Target Support Files/Pods-SingularkeyFlow_Tests/Pods-SingularkeyFlow_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		726DE93074718243B6A03F79 /* Pods-SingularkeyFlow_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SingularkeyFlow_Tests.release.xcconfig"; path = "Target Support Files/Pods-SingularkeyFlow_Tests/Pods-SingularkeyFlow_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		9E7AA9B1EAA37D48690A9E78 /* Pods-SingularkeyFlow_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SingularkeyFlow_Tests.debug.xcconfig"; path = "Target Support Files/Pods-SingularkeyFlow_Tests/Pods-SingularkeyFlow_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		AF9602EA9611312C12727715 /* Pods_SingularkeyFlow_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SingularkeyFlow_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF71CBDB788BF8A2153E4EFE /* SingularkeyFlow.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SingularkeyFlow.podspec; path = ../SingularkeyFlow.podspec; sourceTree = "<group>"; };
 		FB4B81FAB9B233B32E9E9C92 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -28,7 +28,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D5A62C3DF64DF48444C80D02 /* Pods_SingularkeyFlow_Tests.framework in Frameworks */,
+				8E0B3D0E62D2D36F91D4D19C /* Pods_SingularkeyFlow_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,7 +42,7 @@
 				607FACE81AFB9204008FA782 /* Tests */,
 				607FACD11AFB9204008FA782 /* Products */,
 				CA3A288AAE82F023E65AE2E8 /* Pods */,
-				61A9F1F78C8EAD486661159B /* Frameworks */,
+				E49AF23CDE23D0D8C6B116CD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,21 +81,21 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
-		61A9F1F78C8EAD486661159B /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				1EF867597A97C3883E7D7029 /* Pods_SingularkeyFlow_Tests.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		CA3A288AAE82F023E65AE2E8 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				6F879759BE989D64E9EE2D40 /* Pods-SingularkeyFlow_Tests.debug.xcconfig */,
-				C0993B5C7D0407A6DD6076E1 /* Pods-SingularkeyFlow_Tests.release.xcconfig */,
+				9E7AA9B1EAA37D48690A9E78 /* Pods-SingularkeyFlow_Tests.debug.xcconfig */,
+				726DE93074718243B6A03F79 /* Pods-SingularkeyFlow_Tests.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		E49AF23CDE23D0D8C6B116CD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AF9602EA9611312C12727715 /* Pods_SingularkeyFlow_Tests.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -105,11 +105,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "SingularkeyFlow_Tests" */;
 			buildPhases = (
-				9F3DDC270A0F8DA6904CD93D /* [CP] Check Pods Manifest.lock */,
+				EBB8C810511225E1DDCC4BAB /* [CP] Check Pods Manifest.lock */,
 				607FACE11AFB9204008FA782 /* Sources */,
 				607FACE31AFB9204008FA782 /* Resources */,
 				607FACE21AFB9204008FA782 /* Frameworks */,
-				0CCCDD994519A45A87D4B234 /* [CP] Embed Pods Frameworks */,
+				0ED0D378DB31C64129DABD72 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -169,25 +169,47 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0CCCDD994519A45A87D4B234 /* [CP] Embed Pods Frameworks */ = {
+		0ED0D378DB31C64129DABD72 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-SingularkeyFlow_Tests/Pods-SingularkeyFlow_Tests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/SingularkeyFlow/SingularkeyFlow.framework",
+				"${PODS_ROOT}/JumioMobileSDK/JumioMobileSDK-3.7.2/JumioCore.framework",
+				"${PODS_ROOT}/JumioMobileSDK/JumioMobileSDK-3.7.2/BAMCheckout.framework",
+				"${PODS_ROOT}/JumioMobileSDK/JumioMobileSDK-3.7.2/Netverify.framework",
+				"${PODS_ROOT}/JumioMobileSDK/JumioMobileSDK-3.7.2/NetverifyBarcode.framework",
+				"${PODS_ROOT}/JumioMobileSDK/JumioMobileSDK-3.7.2/MicroBlink.framework",
+				"${PODS_ROOT}/JumioMobileSDK/JumioMobileSDK-3.7.2/NetverifyFace.framework",
+				"${PODS_ROOT}/JumioMobileSDK/JumioMobileSDK-3.7.2/ZoomAuthentication.framework",
+				"${PODS_ROOT}/JumioMobileSDK/JumioMobileSDK-3.7.2/DocumentVerification.framework",
+				"${PODS_ROOT}/JumioMobileSDK/JumioMobileSDK-3.7.2/JumioNFC.framework",
+				"${PODS_ROOT}/../../SingularkeyFlow.framework",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/Onfido/Onfido.framework/Onfido",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/SingularKey/SingularKey.framework/SingularKey",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JumioCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BAMCheckout.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Netverify.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NetverifyBarcode.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MicroBlink.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NetverifyFace.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZoomAuthentication.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DocumentVerification.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JumioNFC.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SingularkeyFlow.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Onfido.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SingularKey.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SingularkeyFlow_Tests/Pods-SingularkeyFlow_Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		9F3DDC270A0F8DA6904CD93D /* [CP] Check Pods Manifest.lock */ = {
+		EBB8C810511225E1DDCC4BAB /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -324,7 +346,7 @@
 		};
 		607FACF31AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6F879759BE989D64E9EE2D40 /* Pods-SingularkeyFlow_Tests.debug.xcconfig */;
+			baseConfigurationReference = 9E7AA9B1EAA37D48690A9E78 /* Pods-SingularkeyFlow_Tests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
@@ -352,7 +374,7 @@
 		};
 		607FACF41AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C0993B5C7D0407A6DD6076E1 /* Pods-SingularkeyFlow_Tests.release.xcconfig */;
+			baseConfigurationReference = 726DE93074718243B6A03F79 /* Pods-SingularkeyFlow_Tests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";

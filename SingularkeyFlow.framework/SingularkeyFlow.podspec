@@ -143,7 +143,7 @@ Pod::Spec.new do |spec|
   spec.dependency 'Onfido'
   spec.dependency 'JumioMobileSDK', '~>3.7.1'
   spec.dependency 'JumioMobileSDK/NetverifyFace', '~>3.7.1'
-  spec.dependency 'UnifyID'
+  #spec.dependency 'UnifyID'
 
 end
 

@@ -1,16 +1,35 @@
 PODS:
-  - SingularkeyFlow (0.1.0)
+  - JumioMobileSDK (3.7.2):
+    - JumioMobileSDK/JumioMobileSDK (= 3.7.2)
+  - JumioMobileSDK/JumioMobileSDK (3.7.2)
+  - JumioMobileSDK/NetverifyFace (3.7.2)
+  - Onfido (20.0.0)
+  - Singularkey (1.0.3)
+  - SingularkeyFlow (0.0.3):
+    - JumioMobileSDK (~> 3.7.1)
+    - JumioMobileSDK/NetverifyFace (~> 3.7.1)
+    - Onfido
+    - Singularkey
 
 DEPENDENCIES:
   - SingularkeyFlow (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - JumioMobileSDK
+    - Onfido
+    - Singularkey
 
 EXTERNAL SOURCES:
   SingularkeyFlow:
     :path: "../"
 
 SPEC CHECKSUMS:
-  SingularkeyFlow: eda3a1f497d213ed4696fb184833faa8b98dad94
+  JumioMobileSDK: fe891524a271a4620832163356d1e5651f6d6ff9
+  Onfido: 8be048d833b53a105572338a021693a2f42d0d65
+  Singularkey: df03c7c8361512a9e6447969ac3641114364d3ff
+  SingularkeyFlow: 82e6cb29f83649c6a6a1c06197c41a7efcf44d72
 
 PODFILE CHECKSUM: ec9fcf79e56280a299b22094609dba180a9fc3b6
 
-COCOAPODS: 1.9.1
+COCOAPODS: 1.10.1

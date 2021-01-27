@@ -6,7 +6,7 @@
 	<dict>
 		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<data>
-		4vQNXKAa/UFH6tLwQiBSI3RZDds=
+		bcDWXwP9GIRVAh34g7gID7bcLTM=
 		</data>
 		<key>Base.lproj/LaunchScreen.storyboardc/Info.plist</key>
 		<data>
@@ -14,83 +14,99 @@
 		</data>
 		<key>Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib</key>
 		<data>
-		eqMLchgDrXWxB8fmRVmR/a9lPx4=
+		rcyX2MwMmW2ac/uTiPf/Umn+1nk=
 		</data>
 		<key>Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib/objects-14.0+.nib</key>
 		<data>
-		oVGf4le4A57NexnNXdGPeGuAg1I=
+		/Z82gKBOON86WuVygDz8k64a+qs=
 		</data>
 		<key>Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib/runtime.nib</key>
 		<data>
-		nP3x+jtpwZtQrQRCMbyX8towHuA=
+		fhQzpYPvfaAUg5BWHqYwD4snkqI=
+		</data>
+		<key>Base.lproj/Main.storyboardc/FaceImageCaptureVC.nib/objects-14.0+.nib</key>
+		<data>
+		ETi0lj1rZVB6dE7KgTENbOmgBwM=
+		</data>
+		<key>Base.lproj/Main.storyboardc/FaceImageCaptureVC.nib/runtime.nib</key>
+		<data>
+		Bj+ndk7hVpEMcU1E3FHh7PZrsXI=
 		</data>
 		<key>Base.lproj/Main.storyboardc/Info.plist</key>
 		<data>
-		g7hZvrnpuVRsSMwHVG9eUtzdJRw=
+		NHKTYF9Q89mkBrq7a2KUv9RXgs0=
 		</data>
 		<key>Base.lproj/Main.storyboardc/MfaScreen1VC.nib/objects-14.0+.nib</key>
 		<data>
-		QsOE200FTtIlYJUosDJg6ZZ7eqs=
+		dlE7FlSq15ssAQvlykOhu7AKYaQ=
 		</data>
 		<key>Base.lproj/Main.storyboardc/MfaScreen1VC.nib/runtime.nib</key>
 		<data>
-		ID5CmrNJ8xn0mmwUfhY0cFEHGJU=
+		T4+KaIPMcfYRGsWDwMqK7FmS6UA=
 		</data>
 		<key>Base.lproj/Main.storyboardc/ScreenTemplate1VC.nib/objects-14.0+.nib</key>
 		<data>
-		Be4u85/SYUgVe/jCdSh9cB6kAU4=
+		pDRYSlMhCpZSDCVduOAddNtgHd0=
 		</data>
 		<key>Base.lproj/Main.storyboardc/ScreenTemplate1VC.nib/runtime.nib</key>
 		<data>
-		2NdT4xmaL40XdDOVSdzbBqUoGTY=
+		QHUTDnyPa0tjZbUs1MKrawCwAg8=
 		</data>
 		<key>Base.lproj/Main.storyboardc/StartFlowVC.nib/objects-14.0+.nib</key>
 		<data>
-		IVGttKLHz6/06PAZ6vSq/zvgoxk=
+		9d7Op7d/2eu+GlgGssFTdNaGWio=
 		</data>
 		<key>Base.lproj/Main.storyboardc/StartFlowVC.nib/runtime.nib</key>
 		<data>
-		cGltnUIisgqUGYFUf96uLXa15og=
+		/dcpdRrHWRUv5XVrnxVhN8aYFfY=
 		</data>
 		<key>Base.lproj/Main.storyboardc/UINavigationController-8Da-1R-cYP.nib/objects-14.0+.nib</key>
 		<data>
-		D6KhL+WjzhaKkE+npCSn2sKxUrs=
+		rtLcuj48jtlE0grKazguvloXaLA=
 		</data>
 		<key>Base.lproj/Main.storyboardc/UINavigationController-8Da-1R-cYP.nib/runtime.nib</key>
 		<data>
-		tPsGWrxQLxrYyiSl0+sLeA8CEc0=
+		h67Mpv/fSsC9p3NWteUtNEpy154=
+		</data>
+		<key>Base.lproj/Main.storyboardc/ggc-hn-YcR-view-LqA-sR-NRS.nib/objects-14.0+.nib</key>
+		<data>
+		NBftNnZZVvmL88QUGFzK0uQ0eRI=
+		</data>
+		<key>Base.lproj/Main.storyboardc/ggc-hn-YcR-view-LqA-sR-NRS.nib/runtime.nib</key>
+		<data>
+		cEkN58GTiz592kq29qWJ+Tm0Gmk=
 		</data>
 		<key>Base.lproj/Main.storyboardc/k0k-VG-fdC-view-OU7-b4-ISy.nib/objects-14.0+.nib</key>
 		<data>
-		SWCoyRML6J5Ky5Q2PnpkxrvHMfQ=
+		pe3rv9e5hpXw2NcDZqJCqOGhyE8=
 		</data>
 		<key>Base.lproj/Main.storyboardc/k0k-VG-fdC-view-OU7-b4-ISy.nib/runtime.nib</key>
 		<data>
-		FeZEkRGwyn/ajhpW8bcTFksID9Y=
+		xnULo/50sEw9ginVOvn3q6Prmvw=
 		</data>
 		<key>Base.lproj/Main.storyboardc/sIU-21-unj-view-gie-eC-kFi.nib/objects-14.0+.nib</key>
 		<data>
-		SCGI6B0QVIjiCNMLldltSKUoYXc=
+		PsvksL/5YdvorFzMqKdGe2ebtH0=
 		</data>
 		<key>Base.lproj/Main.storyboardc/sIU-21-unj-view-gie-eC-kFi.nib/runtime.nib</key>
 		<data>
-		SkjiXlelOjHBO5bHBn/qPqixr3c=
+		vgxU0cp5EzIjczxareQvV0lk/wk=
 		</data>
 		<key>BodyHeaderTextTableViewCell.nib</key>
 		<data>
-		8uAQp+TTNyfx/EVMBfY+GOHCOYg=
+		Kl48DArKPeD49Ju506vYXCQRegk=
 		</data>
 		<key>ButtonTableViewCell.nib</key>
 		<data>
-		OwlsXDed8XpM+y6pK4Sc9aJ/zd8=
+		wfDc2gqsSvw9EGZr/2YfIlNIhpo=
 		</data>
 		<key>DropdownTableViewCell.nib</key>
 		<data>
-		0cwv25vmrb85QHS9A+WFJYF/d9I=
+		ASvflnsFFOag1enyHOT63AwpiIc=
 		</data>
 		<key>Headers/SingularkeyFlow-Swift.h</key>
 		<data>
-		GblBr/2gg32iHIijFVSm3tbent0=
+		5ydFmRJD85dGGfj90N0rZhpNN90=
 		</data>
 		<key>Headers/SingularkeyFlow.h</key>
 		<data>
@@ -98,7 +114,7 @@
 		</data>
 		<key>ImageTableViewCell.nib</key>
 		<data>
-		J3JDvRYJurI0XnorgM8Pm88hfYA=
+		VV18qLDPK7bX7GqIz+TAj0AgmPc=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -106,47 +122,39 @@
 		</data>
 		<key>LabelTableViewCell.nib</key>
 		<data>
-		wNaD8gKjWq3qGApz1KdPYhwVy84=
+		JV456o0lmlzt3WGyAY8puqCWN88=
 		</data>
 		<key>MFATableViewCell.nib</key>
 		<data>
-		/i/lV1G7X9WPkx0U5B4mzEmt/AE=
+		zaBfaFDZ/Lu6eNG/2J0OCiqEWRg=
 		</data>
 		<key>MainHeaderTextTableViewCell.nib</key>
 		<data>
-		+sdumAo8yzE5Xe+klJRaiEoe0nY=
+		6xOxAXXKmxgmMSI50dVHuUc+i4Y=
 		</data>
 		<key>Modules/SingularkeyFlow.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		1imZaTPcrKc2Ly0XBwUCxpEJH34=
+		1McRM0pRbb34Ek/aEZKtiSC93ek=
 		</data>
 		<key>Modules/SingularkeyFlow.swiftmodule/Project/arm64.swiftsourceinfo</key>
 		<data>
-		1imZaTPcrKc2Ly0XBwUCxpEJH34=
+		1McRM0pRbb34Ek/aEZKtiSC93ek=
 		</data>
 		<key>Modules/SingularkeyFlow.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		8geqboggwtzY6TkR5NZFBduhM9w=
-		</data>
-		<key>Modules/SingularkeyFlow.swiftmodule/arm64-apple-ios.swiftinterface</key>
-		<data>
-		mcf8APJjliFDeOr35OzP8ZyAIN0=
+		vO2XVDxkTEI9IUQNPfHn+q7BX0U=
 		</data>
 		<key>Modules/SingularkeyFlow.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		M2nbWVLOL/FrlwdQUxdqZYrZziI=
+		uZz2/iwDlKPgzKQX1sxjFz8DF9k=
 		</data>
 		<key>Modules/SingularkeyFlow.swiftmodule/arm64.swiftdoc</key>
 		<data>
-		8geqboggwtzY6TkR5NZFBduhM9w=
-		</data>
-		<key>Modules/SingularkeyFlow.swiftmodule/arm64.swiftinterface</key>
-		<data>
-		mcf8APJjliFDeOr35OzP8ZyAIN0=
+		vO2XVDxkTEI9IUQNPfHn+q7BX0U=
 		</data>
 		<key>Modules/SingularkeyFlow.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		M2nbWVLOL/FrlwdQUxdqZYrZziI=
+		uZz2/iwDlKPgzKQX1sxjFz8DF9k=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -154,23 +162,23 @@
 		</data>
 		<key>ShowPoweredByTableViewCell.nib</key>
 		<data>
-		K7+66BWUW0GNUnBalpv+1MY5hos=
+		tbTP4spP0xkBw/9y8K7rRUzcXIs=
 		</data>
 		<key>SingularkeyFlow.podspec</key>
 		<data>
-		pobymTTrX8JZUj+SRtRkn/fOcgY=
+		gUz+idxtKJc6QRJUU+qlHGf2wNs=
 		</data>
 		<key>SubTitleTableViewCell.nib</key>
 		<data>
-		rQNZs0i8gXYEnO/0BUsH4PayD5U=
+		D3Cwhzsb1IFxlougKM2HRpKOGQ4=
 		</data>
 		<key>TextFieldTableViewCell.nib</key>
 		<data>
-		KPvzHPgCLQUsfV/iWcFNtS1yric=
+		D4zMgVwcCEMzaMbUNkIxPyRqCd8=
 		</data>
 		<key>TitleTableViewCell.nib</key>
 		<data>
-		a7ps5iZtuMgClmNJdT5DLJT+h/8=
+		HZYdE7da4FZbpEC9dHduHGLeVJc=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -179,7 +187,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			5jCdD/C9f1UFYubYhyxHH2w00Wtx5XfyYHfl+YQDCAI=
+			P6M/ObKq+5EM0wEFPyb3OAJ3r0qmFAg5u9o9WraAlL4=
 			</data>
 		</dict>
 		<key>Base.lproj/LaunchScreen.storyboardc/Info.plist</key>
@@ -193,140 +201,168 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			gmC7TlkbWMvYDDdFvVuf7XQ3rkC1FC8vICJdZ+JN5LM=
+			J8obmad+nX5woxNHHgQin9XY6Gk9bvryUYMm3vZTV/8=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib/objects-14.0+.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			zOs0naIOIPpGYjrAtVyGOqaPJ1a+yUp9V6tCSlCpz/U=
+			CNkujnVAlQ0xHAJMBEiZvJMkSTYZ87DwIaGKBQLLztg=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			lsXfGQ/6xGkxlzXd1JnuvE7oJaPeUuTjEYeo04bhOPA=
+			bNNoQ05/QAlGedZKEo+0OJJeDuA1b7jp67zBXtr9SyE=
+			</data>
+		</dict>
+		<key>Base.lproj/Main.storyboardc/FaceImageCaptureVC.nib/objects-14.0+.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			lRLMQCRLwV9OGCXhNM9B6RxKN4UNQI93uu5BNIDHPO4=
+			</data>
+		</dict>
+		<key>Base.lproj/Main.storyboardc/FaceImageCaptureVC.nib/runtime.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			DTuYsSTx14QVQlZap2vzIh5GL742Def8noX2xF01XE4=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			6bR39TqlYjYaod3oI2VUrho+aI3xJdpsQ6IpHN5lqIA=
+			+W95jT2CxEu2kGJ8ijMDjDUvi/nTRgqh7G7G9/6U6fs=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/MfaScreen1VC.nib/objects-14.0+.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			aB2h+iHgf0223JNOck4SgApgqVSzJ9AuCOcU5C9XJSU=
+			SnbaknxWvcIezKP+kMACjMwh7wwXiGUJ6nMGDZPa4PY=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/MfaScreen1VC.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			A3TQiqmqGPXac1Il8eaPRFq6qeK8XdVxdARq8GxP8xk=
+			xsDTWTQHBZxO7hb+fNAMuzDkO2+gfXZQOFj96jh8Avg=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/ScreenTemplate1VC.nib/objects-14.0+.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			nB9TxkjYMDfqO3AORGmVMbWrRCL8TYSlgDOHkiCtCkk=
+			kQYfrKAYVdwccPgyF5Yqm5r6MzcupOi320GW/fmwANE=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/ScreenTemplate1VC.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			WYcwLLXjTbfb9rfjCqWEkiRu55WjfNur4irOjtbsB8E=
+			asWPRpJAStU1XnsDXR/dN0Zq4cnV/HZO0tNL7eN+5Tw=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/StartFlowVC.nib/objects-14.0+.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			sWudIzzC59XZzjwWXi9zxHILubNI8YnzTixGYpYp9RY=
+			q0o6pZ5m+42nqwfAKC64pa3Bk5Dbw61SzQ4cIss/G/c=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/StartFlowVC.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			9+kz4zJlJNii/gGNQWQYtBz0nZNIbAkHJZjNuspXGSQ=
+			AkwtFDxvIlSHI5FOp57Eb42X2G+2aJT+erXIcUTR6DQ=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/UINavigationController-8Da-1R-cYP.nib/objects-14.0+.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			3h+LsTh7NkqEfn5bjDfkE3XMUQoN27jZDcM4OQUO2us=
+			LOBEA9crpyVVMtKIep/MqphppYwc8Eiiaw7L54gfqk8=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/UINavigationController-8Da-1R-cYP.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			8DlFn4qW/+RKfYRB0CJpce++n62QOLL25doXs9jYaI4=
+			7mowVWNTh4SheABrcum/JDvcZeRIjQCRHIeHGiY4XJQ=
+			</data>
+		</dict>
+		<key>Base.lproj/Main.storyboardc/ggc-hn-YcR-view-LqA-sR-NRS.nib/objects-14.0+.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			oQTM9Zr09F+JfPfkK5UiSCxMU/DXwg79jYjLD8bFuZo=
+			</data>
+		</dict>
+		<key>Base.lproj/Main.storyboardc/ggc-hn-YcR-view-LqA-sR-NRS.nib/runtime.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			gS8zG7bj0p/yslSCeotVX84CY2FR8yM2FCGpucTIx88=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/k0k-VG-fdC-view-OU7-b4-ISy.nib/objects-14.0+.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			qdDS7r6kgNreenyDnVYbeKSesJ/SbIthxoRIiZwFb48=
+			dQJ3oBdAtPqjjF1Jbr8dyr9DjmZNF4gFS0xaR0LOT6U=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/k0k-VG-fdC-view-OU7-b4-ISy.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			71AsTlnj7g67ysNCrqNQF/IAK2mim5Fpismo8qyU4l8=
+			PRotSKBClQnMCkkv8uAhXNCEDHUkeFYbh3iNaDTA7Rk=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/sIU-21-unj-view-gie-eC-kFi.nib/objects-14.0+.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			wAEqAWCWmIwwdpETJfTX+/lamjI7uRmbCLSiNqIed4E=
+			8hC7mL6VyB+HMCd7qr1rL943BuNG7bpoMq3NeSz31Nc=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/sIU-21-unj-view-gie-eC-kFi.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			tTu7qijtfC3ok7gP+ZQ63GBMlRl3O7B8rW25ukPVyCc=
+			VkS7mKnOV7C/ZLLLzZSHC2/SDDcJyvFmsstlA9Ef6gk=
 			</data>
 		</dict>
 		<key>BodyHeaderTextTableViewCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ydTqy6xfX2JaCoeUOOa5ozmdeapCrQffkbgHeu276J0=
+			idu7M7p7kLO142bMGOG/X5vsF/6+0xMV8s+4EtRREuM=
 			</data>
 		</dict>
 		<key>ButtonTableViewCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			JH9u/1bHThxx7a2h4+F56MnBQ70jEL4wtM17alzD288=
+			PH0dByxoToOKOH0BbpYYIwSY1pmBmRbvKdKHeqUSkoE=
 			</data>
 		</dict>
 		<key>DropdownTableViewCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			z6Yz+b8AAN4fARYajn4CM3+4ohTZTKfQU+G0oavfaWg=
+			RJhz1DMmLKm8mvMyf13A+TzRaUKz7BX8/4k2NhYHUk8=
 			</data>
 		</dict>
 		<key>Headers/SingularkeyFlow-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			EOiP/vI5EVcNBjZu9Wb9QwBbLLQj1NXeuwnDzToF8ss=
+			lz2J9lNXSFMD/a/lZi20Bc+MTdIP3TRWGtHWew1VMkw=
 			</data>
 		</dict>
 		<key>Headers/SingularkeyFlow.h</key>
@@ -340,84 +376,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			nHI76xTQr1rhPAVt+7Sd+S5PlFLwsfLDEtXgWaSjHA4=
+			PPluaMJCZUrdFTMqZVA/u3rOfBQ1HjG5+bN/o5ezUJ8=
 			</data>
 		</dict>
 		<key>LabelTableViewCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			IeFy+Bh4nt4CmqFfOzSI1tuLhqgcdh78Ift2U0iYpzU=
+			8Te+SQQrTRGF9VH+Hp3BTrZi3frxb1nDM5L+qojZs6o=
 			</data>
 		</dict>
 		<key>MFATableViewCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			OdOBAL94OMMOkl39Ed9tr4YNENLU7jtm7hmuKwFVKLM=
+			MONwqKzG06vscIu/xUUPGLQV5PSDA9twnD2eipH0JJs=
 			</data>
 		</dict>
 		<key>MainHeaderTextTableViewCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			F9uwsgbqdmPxdM4ClWfPRtAFhZHw2JBBmQBH5gt5/Zg=
+			7Evm2FJBLoNFbYOSNS7dRktYJYTpsevzP8QloP/ZpWc=
 			</data>
 		</dict>
 		<key>Modules/SingularkeyFlow.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			gvYAdAnTsY6uU/gu5HpSlUtumHLpq+Q803sS8AVlKy4=
+			EnDr0DAeIQOabPdNctEMPYIE9NdGB5PcVsiwOgm8obA=
 			</data>
 		</dict>
 		<key>Modules/SingularkeyFlow.swiftmodule/Project/arm64.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			gvYAdAnTsY6uU/gu5HpSlUtumHLpq+Q803sS8AVlKy4=
+			EnDr0DAeIQOabPdNctEMPYIE9NdGB5PcVsiwOgm8obA=
 			</data>
 		</dict>
 		<key>Modules/SingularkeyFlow.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			iflXdZHWvAnD1gUhRM7zVICYFdf08fANn8sOL8YS6HM=
-			</data>
-		</dict>
-		<key>Modules/SingularkeyFlow.swiftmodule/arm64-apple-ios.swiftinterface</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			3enjDMDJrBLyo93aet8aOqVpTFFU0yUvAJJp0mMbvmk=
+			2T5WzHPLIvYIglkrm4YiM4yVPykQA9XBTLGhD6B/PoI=
 			</data>
 		</dict>
 		<key>Modules/SingularkeyFlow.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			sOLOLReoyb6fhC8Xysp3cfIlD/zEukjXXNFOxgcgAOY=
+			RW/U5Nvm4OhND9kRYsqujIvdPDADYqzQDIci+EEfyic=
 			</data>
 		</dict>
 		<key>Modules/SingularkeyFlow.swiftmodule/arm64.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			iflXdZHWvAnD1gUhRM7zVICYFdf08fANn8sOL8YS6HM=
-			</data>
-		</dict>
-		<key>Modules/SingularkeyFlow.swiftmodule/arm64.swiftinterface</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			3enjDMDJrBLyo93aet8aOqVpTFFU0yUvAJJp0mMbvmk=
+			2T5WzHPLIvYIglkrm4YiM4yVPykQA9XBTLGhD6B/PoI=
 			</data>
 		</dict>
 		<key>Modules/SingularkeyFlow.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			sOLOLReoyb6fhC8Xysp3cfIlD/zEukjXXNFOxgcgAOY=
+			RW/U5Nvm4OhND9kRYsqujIvdPDADYqzQDIci+EEfyic=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -431,35 +453,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			vXtj+MnJkI9PNxGImIARKCvyxTNbOa76Cpr0Z5VTchU=
+			0GFWFRui/HhyoNIl9D/jV+a/KFDGaqrW2+cfjpKsn7U=
 			</data>
 		</dict>
 		<key>SingularkeyFlow.podspec</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			sU7bPr+sZERmtk12riwakOtjTVjN1Blrfc5mL64fnRQ=
+			6xgY6kR5OxKc7M5qTLavywZ/3Bw4pkVo9pOXUGhpVlQ=
 			</data>
 		</dict>
 		<key>SubTitleTableViewCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Lc2ckdGwX0lSlMpX1vJRjuqWcNHrLWZqcOSb55FKLkY=
+			KoKcpYspl6rwK7lBmx3hcIA+2K16PEqW5uDj2OQwskk=
 			</data>
 		</dict>
 		<key>TextFieldTableViewCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			MAfxRGkLtBWA+prnKLbiRKhvbXzPbXaYzMozuB+2i00=
+			NX/HEatUn+tcbiEk85f02A2G/MBbhonZXGR2UAVojeQ=
 			</data>
 		</dict>
 		<key>TitleTableViewCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			r+gdAW3hv2Z1tsSSRjmIm6CKxzvvLdOdPpV8ghOnLCQ=
+			6oNPhdd6A/l4epoac7ijUNXUBiar+K8FvAfGE49s9mk=
 			</data>
 		</dict>
 	</dict>
